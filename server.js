@@ -27,7 +27,7 @@ app.use(function (req, res, next) {
 
 // health endpoint - returns an empty array
 app.get('/', (req, res) => {
-    res.json([]);
+    res.json(["trung"]);
 });
 
 // version endpoint to provide easy convient method to demonstrating tests pass/fail
